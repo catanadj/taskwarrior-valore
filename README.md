@@ -8,7 +8,25 @@ Standalone Taskwarrior value and priority assessment utility.
 
 - Python 3.10+
 - Taskwarrior CLI available as `task`
+- Taskwarrior `value` UDA configured
 - Python dependencies from `requirements.txt`
+
+## Taskwarrior Setup
+
+The tool writes the normalized assessment score to a Taskwarrior UDA named `value`.
+Configure it before using the tool:
+
+```bash
+task config uda.value.type numeric
+task config uda.value.label Value
+```
+
+Equivalent `.taskrc` entries:
+
+```text
+uda.value.type=numeric
+uda.value.label=Value
+```
 
 ## Install Dependencies
 
