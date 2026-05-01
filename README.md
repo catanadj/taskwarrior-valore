@@ -1,3 +1,6 @@
+<img width="746" height="700" alt="image" src="https://github.com/user-attachments/assets/56220139-913b-44b6-9f7a-88f4809ef546" />
+
+
 # taskwarrior-valore
 
 Standalone Taskwarrior value and priority assessment utility.
